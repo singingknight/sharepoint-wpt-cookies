@@ -1,0 +1,21 @@
+{
+  "name": "sharepoint-wpt-cookies",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "sharepoint-wpt-cookies": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/singingknight/sharepoint-wpt-cookies"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "proactive-sharepoint-auth": "^0.1.0"
+  }
+}
