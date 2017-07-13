@@ -10,7 +10,7 @@ if (args.length != 3) {
     return 1
 }
 var url = `https://${args[0]}.sharepoint.com`;
-var user = args[1].indexOf('@') ? args[1] : `${args[1]}@${args[0]}.onmicrosoft.com`
+var user = args[1].indexOf('@') != -1 ? args[1] : `${args[1]}@${args[0]}.onmicrosoft.com`
 var pass = args[2]
 var auth = new proactive.SharePoint.Authenticate(url, user, pass);
 auth.authenticate().then(
